@@ -1,0 +1,23 @@
+.loading {
+	width: 100vw;
+	height: 100vh;
+	background: rgba(0, 0, 0, 0.7);
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: 0.3s;
+}
+
+.loading img {
+	width: 200px;
+	object-fit: cover;
+}
+
+.loading.hidden {
+	pointer-events: none;
+	opacity: 0;
+}
