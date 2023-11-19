@@ -15,6 +15,22 @@
 		<div class="loading">
 			<img src="loading.gif">
 		</div>
+		<div class="account">
+			<div class="account__picture">
+				<img src="index.png" draggable='false'>
+				<label for="fileInput" title="edit profile picture"><i class="bx bx-pencil"></i></label>
+				<input type="file" style="display: none;" id="fileInput">
+			</div>
+			<div class="account__form">
+				<span id="username" class="input" contenteditable="true"></span>
+				<span id="password" class="input"></span>
+			</div>
+			<div class="account__form">
+				<span id="email" class="input" contenteditable="true"></span>
+				<span id="number" class="input" contenteditable="true"></span>
+			</div>
+			<button disabled=''>Save Changes</button>
+		</div>
 	</body>
 	<script type="text/javascript" src="app.js"></script>
 	<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
